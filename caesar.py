@@ -22,6 +22,3 @@ def decrypt(key,ciphertext):
         plaintext += chr(new_num)
     return plaintext
 
-
-if __name__ == "__main__":
-    print decrypt(1, encrypt(1, "ABC"))
